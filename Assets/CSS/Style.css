@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.woff");
+    src: url("../fonts/Raleway-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Raleway_Bold";
+    src: url("../fonts/Raleway-Bold.woff");
+    src: url("../fonts/Raleway-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Raleway_Italic";
+    src: url("../fonts/Raleway-Italic.woff");
+    src: url("../fonts/Raleway-Italic.ttf") format('truetype');
+}
+
+body {
+    max-width: 1160px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    margin: auto;
+    border-right: solid 2px #2c1d27;
+}
+
+header {
+    background-color: #782221;
+    text-align: center;
+}
+
+#img_profil {
+    margin-top: 10px;
+    max-width: 150px;
+    max-height: 200px;
+    border-radius: 100px;
+    box-shadow: 10px 8px 6px #2c1d27;
+}
+
+#img_profil:hover {
+    cursor: zoom-in;
+}
+
+#zoom {
+    max-width: 1200px;
+    max-height: 1200px;
+}
+
+figcaption {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.contact {
+    background-color: #2c1d27;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__link {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-family: "Raleway_Italic";
+    flex-basis: 33%;
+    margin: 15px;
+}
+
+address {
+    text-align: left;
+}
+
+.tel {
+    text-align: right;
+}
+
+
+#principal_content {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex-basis: 30%;
+    background-color: #782221;
+}
+
+.aside_title {
+    background-color: #dbc2a4;
+    font-family: "Lato";
+    font-size: 18px;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+.aside_p {
+    color: white;
+    text-indent: 40px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.aside_list {
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+main {
+    margin-left: 20px;
+    flex-basis: 70%;
+}
+
+.main_title {
+    background-color: #dbc2a4;
+    font-family: "Lato";
+    font-size: 22px;
+    border-left: solid 8px #782221;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.experiences__main__subtitle {
+    font-family: "Raleway_Bold";
+}
+
+.experiences__main__subtitle:hover {
+    margin-right: 10px; /* je trouve plus visible le trait en décalé, aligné avec le titre de la section */
+    border-right: solid 5px rgb(137, 6, 6);
+}
+
+.skills:hover {
+    margin-right: 10px; /* je trouve plus visible le trait en décalé, aligné avec le titre de la section */
+    border-right: solid 5px rgb(137, 6, 6);
+}
+
+.experiences {
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #782221;
+    color: white;
+    text-align: center;
+}
+
+.logo__footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo_network {
+    max-width: 40px;
+    max-height: 40px;
+    margin: 5px;
+}
+
+.logo_network:hover {
+    opacity: 75%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
